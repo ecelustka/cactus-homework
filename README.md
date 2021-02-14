@@ -1,4 +1,4 @@
-# Seznam homework
+# Cactus homework
 
 Create an application for recording a collection of cacti in any web framework.
 
