@@ -1,0 +1,34 @@
+{
+  "name": "netlify-functions",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "netlify-lambda serve src/functions -c ./webpack.functions.js",
+    "build": "netlify-lambda build src/functions -c ./webpack.functions.js",
+    "js:lint": "eslint './**/*.ts'",
+    "js:fix": "eslint --fix './**/*.ts'",
+    "format": "prettier --write './**/*.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.12.16",
+    "@types/aws-lambda": "^8.10.72",
+    "@types/dotenv": "^8.2.0",
+    "@types/mongodb": "^3.6.7",
+    "@types/uuid": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "dotenv-webpack": "^6.0.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "netlify-lambda": "^2.0.3",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.4",
+    "uuid": "^8.3.2"
+  }
+}

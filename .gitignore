@@ -1,0 +1,14 @@
+backend/netlify-functions/node_modules
+backend/nodejs/node_modules
+frontend/node_modules
+
+backend/netlify-functions/.env
+backend/nodejs/.env
+frontend/.env.development
+frontend/.env.production
+
+backend/nodejs/dist
+backend/netlify-functions/functions
+frontend/public/build
+frontend/.routify
+frontend/.netlify

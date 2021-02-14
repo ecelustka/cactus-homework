@@ -1,0 +1,25 @@
+endOfLine: lf
+tabWidth: 4
+useTabs: false
+singleQuote: true
+bracketSpacing: true
+semi: false
+arrowParens: always
+trailingComma: es5
+overrides:
+  - files:
+      - '*.js'
+      - '*.ts'
+    options:
+      printWidth: 80
+  - files:
+      - '*.json'
+    options:
+      useTabs: true
+  - files:
+      - '*.yml'
+      - '*.yaml'
+      - package.json
+    options:
+      tabWidth: 2
+      useTabs: false

@@ -1,0 +1,6 @@
+{
+	"include": ["src/**/*", "src/types.d.ts"],
+	"compilerOptions": {
+		"outDir": "dist"
+	}
+}

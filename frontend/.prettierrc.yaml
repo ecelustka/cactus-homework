@@ -1,0 +1,34 @@
+endOfLine: lf
+tabWidth: 4
+useTabs: false
+singleQuote: true
+bracketSpacing: true
+semi: false
+arrowParens: always
+trailingComma: es5
+svelteStrictMode: false
+svelteBracketNewLine: false
+svelteAllowShorthand: true
+overrides:
+  - files:
+      - '*.js'
+      - '*.ts'
+    options:
+      printWidth: 80
+  - files:
+      - '*.json'
+    options:
+      useTabs: true
+  - files:
+      - '*.yml'
+      - '*.yaml'
+      - package.json
+    options:
+      tabWidth: 2
+      useTabs: false
+  - files:
+      - '*.svelte'
+    options:
+      printWidth: 80
+plugins:
+  - prettier-plugin-svelte

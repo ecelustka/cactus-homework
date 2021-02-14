@@ -1,0 +1,28 @@
+############################
+# Folders
+############################
+
+.cache
+.idea
+.temp
+.tmp
+public/build
+public/functions
+__sapper__
+git-release
+nbproject
+node_modules
+ssl
+static
+deploy
+
+############################
+# Files
+############################
+
+*.html
+*.min.*
+# _variables.scss
+package-lock.json
+# u-debugger.scss
+# u-show-grid.scss
