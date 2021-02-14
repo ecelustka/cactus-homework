@@ -5,19 +5,19 @@
 Install the dependencies
 
 ```bash
-    npm install
+npm install
 ```
 
 Create `.evn` file in root of this folder and fill variables
 
 ```bash
-    DB_CONNECTION_STRING=
+DB_CONNECTION_STRING=
 ```
 
 Start lambda functions (will be available under `http://localhost:9000/`)
 
 ```bash
-    npm run serve
+npm run serve
 ```
 
 ## Lambda functions
